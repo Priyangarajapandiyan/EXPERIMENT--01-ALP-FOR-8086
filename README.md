@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name :R.PRYANGA
+Roll no : 212223230161
+Date of experiment : 20-08-2025
 
 
 
@@ -79,24 +79,113 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Addition  of 8 bit ALP 
 
+Mov AL,74H
+MOV BL,69H
+ADD AL,BL
+HLT
 
 
 ## Output  
+<img width="1080" height="560" alt="image" src="https://github.com/user-attachments/assets/6b5aae7e-3e04-4d78-beae-62a1eb8e2b44" />
+
  
 ## Subtraction   of 8 bit numbers  ALP 
- 
-## Output  
+
+
+ Mov AL,74H
+MOV BL,69H
+SUB AL,BL
+HLT
+
+
+## Output
+
+
+<img width="1081" height="559" alt="image" src="https://github.com/user-attachments/assets/aa110dae-ca7e-414e-a9f8-88603f461ff1" />
+
 ## Multiplication alp 
+
+
+org 100h
+Mov AL,74H
+MOV BL,69H
+MUL BL
+HLT
+ret
+
+
+
  ## Output  
+
+<img width="1077" height="558" alt="image" src="https://github.com/user-attachments/assets/948fbf64-d18b-4a9b-a97d-a101ed00bc7f" />
 
 
 ## Division alp 
 
-## Output  
+MOV AL,68H
+MOV BL,18H
+DIV BL
+HLT
+
+## OUTPUT 
+
+
+<img width="1077" height="555" alt="image" src="https://github.com/user-attachments/assets/ce2c5408-5107-4d4b-b262-c94629f8371c" />
+
+
+
+## And of 8 bit numbers ALP
+
+MOV AL,33H
+MOV BL,44H
+AND AL,BL
+HLT
+
+## OUTPUT
+<img width="1919" height="1021" alt="image" src="https://github.com/user-attachments/assets/287ebb60-43ca-4718-9c2c-96dfca782a30" />
+
+## OR of 8 bit numbers ALP
+
+
+MOV AL,45H
+MOV BL,66H
+OR AL,BL
+HLT
+
+
+## OUTPUT
+
+<img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/159080ad-140e-4276-8ced-df88948ca26b" />
+
+## NOT of 8 bit number ALP
+
+MOV AL,65H
+NOT AL
+HLT
+
+
+## OUTPUT
+
+<img width="1919" height="1017" alt="image" src="https://github.com/user-attachments/assets/68df7e5b-4c2b-45ef-ae01-4221efa228ee" />
+
+## XOR of 8 bit number ALP
+
+MOV AL,66H
+MOV BL,77H
+XOR AL,BL
+HLT
+
+
+## OUTPUT
+
+<img width="1919" height="1019" alt="image" src="https://github.com/user-attachments/assets/1f909655-8976-494d-b62f-7f1dfbf339b8" />
+
+
 
 
 ## Result :
- 
+
+The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
 
 
 
