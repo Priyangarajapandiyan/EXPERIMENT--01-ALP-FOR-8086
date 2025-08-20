@@ -78,12 +78,12 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
-
+```
 Mov AL,74H
 MOV BL,69H
 ADD AL,BL
 HLT
-
+```
 
 ## Output  
 <img width="1080" height="560" alt="image" src="https://github.com/user-attachments/assets/6b5aae7e-3e04-4d78-beae-62a1eb8e2b44" />
@@ -91,12 +91,12 @@ HLT
  
 ## Subtraction   of 8 bit numbers  ALP 
 
-
+```
  Mov AL,74H
 MOV BL,69H
 SUB AL,BL
 HLT
-
+```
 
 ## Output
 
@@ -105,7 +105,7 @@ HLT
 
 ## Multiplication alp 
 
-
+```
 org 100h
 Mov AL,74H
 MOV BL,69H
@@ -113,7 +113,7 @@ MUL BL
 HLT
 ret
 
-
+```
 
  ## Output  
 
@@ -121,12 +121,12 @@ ret
 
 
 ## Division alp 
-
+```
 MOV AL,68H
 MOV BL,18H
 DIV BL
 HLT
-
+```
 ## OUTPUT 
 
 
@@ -135,47 +135,47 @@ HLT
 
 
 ## And of 8 bit numbers ALP
-
+```
 MOV AL,33H
 MOV BL,44H
 AND AL,BL
 HLT
-
+```
 ## OUTPUT
 <img width="1919" height="1021" alt="image" src="https://github.com/user-attachments/assets/287ebb60-43ca-4718-9c2c-96dfca782a30" />
 
 ## OR of 8 bit numbers ALP
 
-
+```
 MOV AL,45H
 MOV BL,66H
 OR AL,BL
 HLT
-
+```
 
 ## OUTPUT
 
 <img width="1919" height="1018" alt="image" src="https://github.com/user-attachments/assets/159080ad-140e-4276-8ced-df88948ca26b" />
 
 ## NOT of 8 bit number ALP
-
+```
 MOV AL,65H
 NOT AL
 HLT
-
+```
 
 ## OUTPUT
 
 <img width="1919" height="1017" alt="image" src="https://github.com/user-attachments/assets/68df7e5b-4c2b-45ef-ae01-4221efa228ee" />
 
 ## XOR of 8 bit number ALP
-
+```
 MOV AL,66H
 MOV BL,77H
 XOR AL,BL
 HLT
 
-
+```
 ## OUTPUT
 
 <img width="1919" height="1019" alt="image" src="https://github.com/user-attachments/assets/1f909655-8976-494d-b62f-7f1dfbf339b8" />
